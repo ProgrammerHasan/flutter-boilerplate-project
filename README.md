@@ -22,16 +22,16 @@ https://github.com/ProgrammerHasan/flutter-boilerplate-project.git
 Change package name: 
 
 ```
-1. Go to build.gradle in app module and rename applicationId "com.company.name"
-2. Go to Manifest.xml in app/src/main and rename package="com.company.name" and android:label="App Name"
-3. Go to Manifest.xml in app/src/debug and rename package="com.company.name"
-4. Go to Manifest.xml in app/src/profile and rename package="com.company.name"
-5. Go to app/src/main/kotlin/com/something/something/MainActivity.kt and rename package="com.company.name"
-6. Go to app/src/main/kotlin/ and rename each directory so that the structure looks like app/src/main/kotlin/com/company/name/
+1. Go to build.gradle in app module and rename applicationId "com.programmerhasan.flutter_boilerplate_project"
+2. Go to Manifest.xml in app/src/main and rename package="com.programmerhasan.flutter_boilerplate_project" and android:label="App Name"
+3. Go to Manifest.xml in app/src/debug and rename package="com.programmerhasan.flutter_boilerplate_project"
+4. Go to Manifest.xml in app/src/profile and rename package="com.programmerhasan.flutter_boilerplate_project"
+5. Go to app/src/main/kotlin/com/something/something/MainActivity.kt and rename package="com.programmerhasan.flutter_boilerplate_project"
+6. Go to app/src/main/kotlin/ and rename each directory so that the structure looks like app/src/main/kotlin/com/programmerhasan/flutter_boilerplate_project/
 7. Go to pubspec.yaml in your project and change name: something to name: name, example :- if package name is com.abc.xyz the name: xyz
 8. Go to each dart file in lib folder and rename the imports to the modified name.
 9. Open XCode and open the runner file and click on Runner in project explorer.
-10. Go to General -> double click on Bundle Identifier -> rename it to com.company.name
+10. Go to General -> double click on Bundle Identifier -> rename it to com.programmerhasan.flutter_boilerplate_project
 11. Go to Info.plist click on Bundle name -> rename it to your App Name.
 12. close everything -> go to your flutter project and run this command in terminal flutter clean
 ```
